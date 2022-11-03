@@ -1,6 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+
+//hooks
 import { useCharacter } from "../hooks/useCharacter";
+
+//styles
 import "./Character.css";
 
 export default function Character() {
